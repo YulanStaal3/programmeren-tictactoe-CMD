@@ -7,6 +7,8 @@ body {
     height: 100vh;
     margin: 0;
     background-image: url(Boter\ kaas\ en\ eieren\ design.png);
+    background-size: cover; 
+    background-position: center; 
     color: #000000;
   }
 
@@ -26,7 +28,7 @@ body {
   }
   
   .cell {
-    background-color: rgb(255, 205, 223);
+    background-color: rgb(253, 255, 205);
     border: 2px solid #1A1A1A;
     display: flex;
     justify-content: center;
@@ -39,7 +41,7 @@ body {
   }
   
   .cell:hover {
-    background-color: rgb(255, 249, 207);
+    background-color: rgb(255, 237, 98);
   }
   
   .game-message {
