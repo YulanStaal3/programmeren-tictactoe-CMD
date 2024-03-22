@@ -11,7 +11,7 @@ body {
   }
 
   h1{
-    color: rgb(255, 245, 170);
+    color: #ffffff;
     font-family: monospace;
     font-size: 45px;
   }
@@ -26,7 +26,7 @@ body {
   }
   
   .cell {
-    background-color: rgb(255, 244, 158);
+    background-color: rgb(255, 205, 223);
     border: 2px solid #1A1A1A;
     display: flex;
     justify-content: center;
