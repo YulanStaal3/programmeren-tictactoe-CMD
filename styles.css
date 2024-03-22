@@ -12,6 +12,8 @@ body {
 
   h1{
     color: rgb(255, 245, 170);
+    font-family: monospace;
+    font-size: 45px;
   }
   
   #tic-tac-toe-board {
