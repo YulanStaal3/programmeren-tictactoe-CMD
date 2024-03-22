@@ -7,8 +7,10 @@ body {
     height: 100vh;
     margin: 0;
     background-image: url(Boter\ kaas\ en\ eieren\ design.png);
-    background-size: cover; 
-    background-position: center; 
+    /* background-color: #000000; */
+    background-size: contain; /* Hiermee wordt de achtergrondafbeelding geschaald om volledig zichtbaar te zijn binnen de container */
+    background-repeat: no-repeat; /* Hiermee wordt voorkomen dat de achtergrondafbeelding wordt herhaald */
+    background-position: center;
     color: #000000;
   }
 
