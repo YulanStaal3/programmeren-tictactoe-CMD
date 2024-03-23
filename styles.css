@@ -49,15 +49,16 @@ body {
   .game-message {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 40px;
     font-size: 20px;
-    color: #333;
+    color: #ffffff;
   }
   
   #resetButton {
     padding: 10px 20px;
     font-size: 1rem;
-    color: #fff;
-    background-color: #333;
+    color: #000000;
+    background-color: rgb(253, 255, 205);
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -65,5 +66,5 @@ body {
   }
   
   #resetButton:hover {
-    background-color: #555;
+    background-color: rgb(255, 237, 98);
   }

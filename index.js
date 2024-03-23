@@ -57,6 +57,7 @@ function announceDraw() {
   messageElement.innerText = 'Game Draw!';
 }
 
+// combinaties om te winnen
 const winConditions = [
   [0, 1, 2], // Top row
   [3, 4, 5], // Middle row
