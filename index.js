@@ -1,20 +1,29 @@
 // speler x begint altijd
 let currentPlayer = 'X'; 
 
+
 // 3x3 bordspel
 let gameBoard = ['', '', '', '', '', '', '', '', '']; 
 
 
+// spel is nog actief
 let gameActive = true;
 
+
+// speler gaat vakje klikken
 function handlePlayerTurn(clickedCellIndex) {
+  // checkt of cel leeg is en of spel actief is
   if (gameBoard[clickedCellIndex] !== '' || !gameActive) {
+    // vakje wordt gevuld
       return;
   }
+  // check of er winnaar of gelijkspel is
   gameBoard[clickedCellIndex] = currentPlayer;
   checkForWinOrDraw();
+  // zo niet, beurt aan volgende
   currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
 }
+
 
 function cellClicked(clickedCellEvent) {
   const clickedCell = clickedCellEvent.target;
