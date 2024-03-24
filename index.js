@@ -1,4 +1,4 @@
-console.log(testest);
+console.log("testest2");
 
 // speler x begint altijd
 let currentPlayer = 'X'; 
@@ -127,4 +127,3 @@ resetButton.addEventListener('click', resetGame, false);
 // - https://www.youtube.com/watch?v=knkWr93kClY
 // - https://www.youtube.com/watch?v=oZrp3Atkz18
 // - https://www.geeksforgeeks.org/simple-tic-tac-toe-game-using-javascript/
-
