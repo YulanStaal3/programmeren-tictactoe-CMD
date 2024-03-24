@@ -1,5 +1,3 @@
-console.log("testest2");
-
 // speler x begint altijd
 let currentPlayer = 'X'; 
 
